@@ -109,7 +109,7 @@ source install/setup.bash
 
 **터미널 1: Gazebo 시뮬레이션**
 ```bash
-ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py model:=e0509
+ros2 launch dsr_bringup2 dsr_bringup2_gazebo.launch.py mode:=virtual host:=127.0.0.1 port:=12345 name:=dsr01 model:=e0509
 ```
 
 **터미널 2: GUI 컨트롤러**
@@ -242,4 +242,5 @@ ros2 run my_ros2_assignment my_node
 | MoveWorkerThread | 다중 타겟 순차 실행 |
 | SingleMoveWorkerThread | 단일 타겟 실행 |
 | HomeMoveWorkerThread | 홈 위치 이동 |
+
 
