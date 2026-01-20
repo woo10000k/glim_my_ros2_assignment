@@ -1,0 +1,22 @@
+# Block everything
+*
+
+# Allow specific files
+!.gitignore
+!.gitmodules
+!README.md
+!requirements.txt
+!Presentation.pdf
+!Presentation.pptx
+
+# Allow src directory structure
+!src/
+!src/doosan-robot2
+!src/doosan-robot2_patches/
+!src/doosan-robot2_patches/**
+!src/my_ros2_assignment/
+!src/my_ros2_assignment/**
+
+# Block pycache (override above)
+__pycache__/
+*.pyc

@@ -1,0 +1,9 @@
+# APT packages (sudo apt install)
+# ros-humble-ros2-control
+# ros-humble-ros2-controllers
+# ros-humble-gazebo-ros-pkgs
+# ros-humble-xacro
+# python3-pip
+
+# Python packages (pip install)
+PyQt5>=5.15.0
